@@ -13,8 +13,6 @@ String GetShapeName(Shape s) {
     return "Other";
   }
 }
-```
-```java
 // Ein Test ob eine geometrische form eine Hantel ist
 boolean IsBarbell(Shape[] s) {
   return s.length == 3 && (s[0] instanceof Circle) &&

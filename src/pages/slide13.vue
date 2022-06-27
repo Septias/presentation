@@ -9,16 +9,16 @@ slide
       h2 First Class Modules
       ul
         li First Class Module sind aussagekräftiger als Objekte
-        li Möglichkeit Typen zu definieren und mitzuliefern
+        li First Class Module haben die Möglichkeit Typen zu definieren und mitzuliefern
         li Dafür erlauben Objekte Polymorphismus und Dynamic Dispatch
     div
-      h2 Objects vs Records
+      h2 Objects im Vergleich zu Records
       ul
-        li Keine Typdefinitionen
-        li Höhere Flexibilität durch Polymorphismus
-        li Verbose Syntax
-        li Runtimecost
-        p => meist nicht anstatt Records verwendet
+        li Keine Typdefinitionen in Objekten
+        li Objekte erlauben durch Polymorphismus höhere Flexibilität
+        li Objekte haben eine relativ verbose Syntax
+        li Objekte haben Runtimekosten
+        p => Meisten werden Objekte nicht anstatt Records verwendet
 </template>
 
 <!--

@@ -7,8 +7,7 @@ let square w = object
   method width = w
 end;;
 
-// da beide Typen eine Methode `area` mit der selben Signatur haben 
-// können wir hier diese Assertion machen
-
+(** Da beide Typen eine Methode `area` mit der selben Signatur
+haben ist die Folgende Nötigung möglich: **)
 (square 10 :> shape);;
 ```

@@ -31,12 +31,12 @@ slide
           li Mit Depth Subtyping können wir ein Objekt A zu einem Objekt B machen, wenn die Methoden sicher verwandelt werden können.
 
     h2 Polymorphic Variant Subtyping
-    slide2sides
+    slide2sides.h-screen
       template(v-slot:left)
         variantsubtyping
 
       template(v-slot:right)
         ul
-          li Man kann mit Subtyping auch polymorfische Varianten zu größen polymorfischen Varianten vergrößern
+          li Man kann mit Subtyping auch polymorfische Varianten zu größeren polymorfischen Varianten vergrößern
           li Das geht wenn die Tags von A eine Untergruppe der Tags von B sind.
 </template>

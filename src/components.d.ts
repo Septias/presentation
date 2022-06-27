@@ -24,6 +24,7 @@ declare module '@vue/runtime-core' {
     Subtypinggood: typeof import('./examples/subtypinggood.md')['default']
     Variance: typeof import('./examples/variance.md')['default']
     Variance2: typeof import('./examples/variance2.md')['default']
+    Varianceannotations: typeof import('./examples/varianceannotations.md')['default']
     Variantsubtyping: typeof import('./examples/variantsubtyping.md')['default']
     Widthsubtyping: typeof import('./examples/widthsubtyping.md')['default']
   }

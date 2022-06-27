@@ -10,17 +10,11 @@ slide
 
       template(v-slot:right)
         ul
-          li Methoden können ohne explizite Typannotation angegeben werden da der Typ inferiert wird
+          li Funktionen können ohne explizite Typannotation definiert werden, da der Typ inferiert wird
           li
             code ..
             |  ist eine
             span  Row Variable
-          li
-            code &lt; pop : int option; .. >
-            |  kann jedes Objekt sein, dass einen Methode
-            |
-            code pop
-            |  mit der gezeigten Architektur hat
     slide2sides
       template(v-slot:left)
         example

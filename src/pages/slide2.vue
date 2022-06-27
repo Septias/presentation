@@ -6,6 +6,9 @@ slide
     li OCaml Objekte
     li Polymorphismus
     li Subtyping
+    li Subtyping > Variance
+    li Polymorphismus vs. Subtyping
     li Narrowing
+    li Immutable Objects
     li Wann verwendet man Objekte
 </template>

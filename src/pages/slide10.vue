@@ -18,14 +18,14 @@ slide
         ul
           li In den meisten Fällen wird Row Polymorphismus verwendet, da keine explizite Nötigung notwendig ist
           li Der implizierte Typ wird aus dem Objekttyp generiert, sodass alle zusätzlichen Methoden erhalten bleiben
-    p Wenn man das selbe mit einem geschlossenen Objekttyp und Subtyping versucht geht das nicht:
+    p Wenn man das selbe mit einem geschlossenen Objekttyp und Subtyping versucht, dann werden die übrigen Methoden nicht erhalten
     example
       subtypingbad
 
-    p Mit Row Polymorphismus kann man keine Objekte mit verschiedenen Typen in eine Liste packen
+    p Mit Row Polymorphismus kann man keine Objekte mit verschiedenen Typen in eine Liste stecken
     example
       listexample
-    p Das selbe gilt auch für Referenzen:
+    p Dasselbe gilt auch für Referenzen
     example
       refexample
     p In diesen Fällen muss man Subtyping verwenden

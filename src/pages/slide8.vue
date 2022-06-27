@@ -10,7 +10,14 @@ slide
       template(v-slot:right)
         ul
           li Typen die aus Objekttypen konstruiert wurden, können auch genötigt werden
-          li Eine 'a list ist covariant (in 'a)
+          li Ein
+            |
+            |
+            code 'a list
+            |  ist
+            |
+            span covariant
+            |  (in 'a')
           li Ein
             |
             |
@@ -24,5 +31,6 @@ slide
           variance2
 
     h2 Variance Annotations
-    p TODO
+    example
+      varianceannotations
 </template>
